@@ -90,8 +90,7 @@ Unauthorized port scanning may violate computer crime laws including the CFAA. A
 ```
 port-scanner/
 ├── port_scanner.py    # Main scanner implementation
-├── README.md          # This file
-└── examples/          # Usage examples (optional)
+└── README.md          # This file
 ```
 
 ## Performance
