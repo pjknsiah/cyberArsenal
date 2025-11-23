@@ -111,6 +111,26 @@ This project demonstrates:
 - Security tool development principles
 - Ethical hacking foundations
 
+## Why Build This Instead of Using Nmap?
+
+**Educational Value:**
+- **Understanding fundamentals** - Building from scratch teaches socket programming, TCP/IP protocols, and network communication
+- **Customization** - Full control over scanning logic, output formats, and integration with other tools
+- **Portfolio demonstration** - Shows ability to implement security concepts, not just use existing tools
+
+**Practical Reasons:**
+- **Lightweight** - No external dependencies, runs anywhere Python runs
+- **Integration** - Easier to embed in larger Python projects or automation scripts
+- **Learning path** - Foundation for understanding how tools like Nmap work internally
+
+**When to Use Nmap Instead:**
+- Production security assessments
+- Advanced scanning techniques (SYN, stealth scans)
+- OS fingerprinting and service version detection
+- Professional penetration testing engagements
+
+This project demonstrates the principle: *"Learn by building, then use the best tools for production."*
+
 ## Related Tools
 
 - **Nmap** - Industry standard port scanner
