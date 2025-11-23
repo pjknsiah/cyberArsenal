@@ -5,7 +5,7 @@ A Python-based TCP port scanner for network reconnaissance and security assessme
 ## Quick Start
 
 ```bash
-python port_scanner.py
+python portScanner.py
 ```
 
 Enter target (hostname/IP), start port, and end port when prompted.
@@ -33,8 +33,8 @@ Ports: 1-1000
 
 **Scan web server:**
 ```
-Target: example.com
-Ports: 80-443
+Target: gusss.knust.edu.gh
+Ports: 22-1024
 ```
 
 ## Technical Overview
@@ -57,10 +57,12 @@ Orchestrates port range scanning and result reporting.
 ### Output Format
 
 ```
-Scanning target: 192.168.1.1
+Scanning target: 129.122.17.148
 [+] Port 22 is OPEN - Service: ssh
 [+] Port 80 is OPEN - Service: http
-Total open ports found: 2
+[+] Port 111 is OPEN - Service: sunrpc
+[+] Port 443 is OPEN - Service: https
+Total open ports found: 4
 ```
 
 ## Security & Legal Notice
@@ -117,6 +119,6 @@ This project demonstrates:
 
 ## License
 
-MIT License - See LICENSE file for details
+MIT License
 
 ---
